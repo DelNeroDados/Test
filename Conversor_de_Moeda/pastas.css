@@ -1,0 +1,36 @@
+MeuProjetoConversor/
+│
+├── pom.xml                      ← ou build.gradle
+├── .gitignore
+│
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── delnero/
+    │   │           └── conversormoeda/
+    │   │               ├── http/
+    │   │               │   └── ApiCliente.java
+    │   │               ├── model/
+    │   │               │   └── ConverterMoeda.java
+    │   │               ├── service/
+    │   │               │   ├── CalcularTaxas.java
+    │   │               │   ├── FiltroDeMoedas.java
+    │   │               │   ├── ConverterMoedaApi.java
+    │   │               │   └── ConverterMoedaLivreApi.java
+    │   │               └── ui/
+    │   │                   └── CurrencyConverterUI.java
+    │   └── resources/
+    │       └── application.properties
+    │
+    └── test/
+        └── java/
+            └── com/
+                └── delnero/
+                    └── conversormoeda/
+                        ├── http/
+                        │   └── ApiClienteTest.java
+                        ├── service/
+                        │   ├── CalcularTaxasTest.java
+                        │   └── FiltroDeMoedasTest.java
+                        └── …
