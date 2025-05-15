@@ -1,0 +1,22 @@
+# Diretórios de build e binários
+/target/
+/out/
+/*.class
+
+# IDEs
+/.idea/
+/*.iml
+
+# Logs
+/logs/
+/*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Favoritos gerados localmente
+/favorites.txt
+
+# Configurações de ambiente
+/.env
